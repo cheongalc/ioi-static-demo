@@ -1,0 +1,27 @@
+#warningPrompt {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+	background-color: rgba(255, 0, 0, 0.5);
+	text-align: center;
+	opacity: 0;
+	z-index: 10;
+	padding: 10px;
+	transition: 0.1s all ease;
+}
+
+#warningPrompt:hover {
+	opacity: 1;
+}
+
+#warningPrompt span {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFF;
+	font-size: 30px;
+}

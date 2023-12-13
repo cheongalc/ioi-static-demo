@@ -1,0 +1,41 @@
+.credits-btn {
+	position: fixed;
+	right: 8px;
+	bottom: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	width: 24px;
+	height: 24px;
+	z-index: 3;
+}
+
+.credits-btn:hover {
+	width: 36px;
+	height: 36px;
+}
+
+.credits {
+	text-align: center;
+	display: block;
+}
+
+.credits-hci {
+	margin: auto;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+.monospaced {
+	font-family: 'Consolas';
+}
+
+.ajs-content h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.gameEnded-icon {
+	width: 100%;
+	text-align: center;
+}

@@ -1,0 +1,18 @@
+#timer {
+	position: absolute;
+	top: calc(85% + var(--titleHeight));
+	right: 0px;
+	width: 20%;
+	height: calc(100% - calc(85% + var(--titleHeight)));
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+#timer div {display: inline-block;}
+#min {width: 30%;}
+#sec {width: 30%;}
+#ms {width: 30%;}
+.colon {width: 3%;}

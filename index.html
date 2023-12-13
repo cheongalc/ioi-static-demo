@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peraduan Ikan oh Ikan</title>
+	<style type='text/css'>
+		html, body {
+			height: 100vh;
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+			background-image: url('assets/svg/canvas_background.svg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: 'Fredoka One', cursive;
+			font-size: 1em;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+			--titleHeight: 40px;
+			overflow-y: hidden;
+		}
+		input, form button {font-size: 1em;}
+		canvas {
+			display: block;
+			position: fixed;
+			top: 0px; left: 0px;
+			width: 80%;
+			height: 100%;
+		}
+		*, *:before, *:after {box-sizing: inherit;}
+	</style>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet'>
+	<link rel='stylesheet' type='text/css' href='assets/css/game/submittedWord.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/game/wordGrid.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/game/timer.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/game/marquee.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/game/warningPrompt.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/home/home.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/credits/credits.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/alertify/alertify.min.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/alertify/default.min.css'>
+	<link rel='preload' href='assets/svg/home-page-sprite.svg' as='image'>
+	<link rel='preload' href='assets/svg/fish-left.svg' as='image'>
+	<link rel='preload' href='assets/svg/fish-left-eat.svg' as='image'>
+	<link rel='preload' href='assets/svg/fish-right.svg' as='image'>
+	<link rel='preload' href='assets/svg/fish-right-eat.svg' as='image'>
+	<script src='assets/js/alertify.min.js'></script>
+	<script src='assets/js/zenscroll.js'></script>
+	<script src='assets/js/matter.js'></script>
+	<script src='assets/js/main.js'></script>
+</head>
+<body>
+	<div class='home'>
+		<img class='home-page-sprite flex-item' src='assets/svg/home-page-sprite.svg' />
+		<input id='ca123' class='flex-item' type='text' placeholder="Sila masukkan 16 huruf di dalam ini" oninput="this.value = this.value.toUpperCase();" onkeydown="return _0x472c90(event);" maxlength="16" />
+		<input id='submit16Chars' class='flex-item' type='submit' onclick="return _0x10333c(event);" />
+	</div>
+	<img class='credits-btn' src='assets/svg/material/copyright.svg' onclick='_0x858dd7()' />
+</body>
+</html>

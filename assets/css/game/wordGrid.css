@@ -1,0 +1,23 @@
+#wordGridWrapper {
+	position: absolute;
+	top: calc(50% + var(--titleHeight));
+	right: 0px;
+	width: 20%;
+	height: 35%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+
+#wordGridWrapper table {
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+
+#wordGridWrapper table td {
+	width: 25%;
+	height: 25%;
+	border: 1px solid #fff;
+	border-radius: 10%;
+}
